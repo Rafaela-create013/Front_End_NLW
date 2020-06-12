@@ -1,0 +1,24 @@
+@media (max-width: 900px){
+    #page-home{
+        background-position-x: 70vx;
+        background: none;
+    }
+    #page-home .content{
+        align-items: center;
+        text-align: center;
+    }
+    #page-home header a{
+        position: absolute;
+        bottom: 40px;
+        left: 50px;
+        transform:translate(-5%);
+    }
+    #page-home main{
+        align-items: center;
+    }
+}
+@media(min-width: 1700px){
+    #page-home{
+        background-position-x:40vw;
+    }
+}
